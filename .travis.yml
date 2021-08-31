@@ -3,4 +3,5 @@ dist: focal
 language: python 
 arch: s390x 
 
-script: python ./bfs.py
+script: python ./bfs.py && ./dfs.py
+# Ease of use of IBM Z
