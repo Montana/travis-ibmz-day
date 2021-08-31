@@ -2,4 +2,5 @@
 dist: focal 
 language: python 
 arch: s390x 
-script: chmod u+x python3 dfs.py 
+
+script: python ./dfs.py 
