@@ -3,4 +3,4 @@ dist: focal
 language: python 
 arch: s390x 
 
-script: python ./dfs.py 
+script: python ./bfs.py
