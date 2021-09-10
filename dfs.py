@@ -1,4 +1,3 @@
-
 N = 8
 rows = N
 cols = N
@@ -118,4 +117,4 @@ class CandidateSolution(object):
 if __name__ == "__main__":
     dfs()
     
- # end() - by Montana Mendy 
+ # By Montana Mendy for IBM Z Day & Travis CI 
