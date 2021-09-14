@@ -1,0 +1,43 @@
+dist: focal
+language: generic
+sudo: required
+
+matrix:
+  fast_finish: true
+  include:
+
+     - name: "Multiarch Python 3.7 on IBM Z by Montana Mendy"
+       os: linux
+       dist: focal
+       arch: s390x
+       language: python
+       python: 3.7
+       before_install:
+        - uname -a
+        - uname -r
+        - dpkg -l | grep toolchain
+        - ls /etc/apt/sources.list.d/
+       install: skip
+       before_script: skip
+       script:
+       - python ./bfs.py
+       env:
+       - LIB_PATH="/usr/bin/shared/x86_64/v1"
+       
+       
+     - name: "Multi arch Python 3.7 on IBM Z by Montana Mendy"
+       os: linux
+       dist: focal
+       arch: s390x
+       language: python
+       python: 3.7
+       before_install:
+        - uname -a
+        - uname -r
+        - dpkg -l | grep toolchain
+        - ls /etc/apt/sources.list.d/
+       install: skip
+       before_script: skip
+       script: python ./dfs.py
+       env:
+        - LIB_PATH="/usr/bin/shared/x86_64/v1" 
