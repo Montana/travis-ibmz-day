@@ -4,7 +4,7 @@ language: generic
 matrix:
   fast_finish: true
   include:
-    - name: "Multi arch Python 3.7 on IBM Z by Montana Mendy"
+    - name: "Multi arch Python 3.7 on IBM Z by Montana Mendy running the breadth-first search"
       os: linux
       dist: focal
       arch: s390x
@@ -22,7 +22,7 @@ matrix:
       env:
         - LIB_PATH="/usr/bin/shared/x86_64/v1"
 
-    - name: "Multi arch Python 3.7 on IBM Z by Montana Mendy"
+    - name: "Multi arch Python 3.7 on IBM Z by Montana Mendy running the depth-first search"
       os: linux
       dist: focal
       arch: s390x
