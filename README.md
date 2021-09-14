@@ -6,6 +6,5 @@ The purpose of this project is to show the ease of use and implementation of IBM
 * Using s390x (Z) 
 * Breadth-first search in Python I wrote 
 * Depth-first search in Python I wrote 
-* Will choose between one or the other, currently I'm building and running the breadth-first search 
-* Show the simplicity of implementation on 1 side 
-* Show the flexibility via running parallel builds of a BFS & DFS search - both using IBM Z
+* Show the simplicity of implementation on 1 side (the first `.travis.yml` file we will build) 
+* Show the flexibility via running parallel builds of a BFS & DFS search - both using IBM Z (building the 2nd `.travis.yml`)
