@@ -18,4 +18,4 @@ The purpose of this project is to show the ease of use and implementation of IBM
 ## Pushing with Quay:
 
 * https://github.com/Montana/travis-s390x-auto
-* quay.io/montana/montana-s390x
+* https://quay.io/montana/montana-s390x
