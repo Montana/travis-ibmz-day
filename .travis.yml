@@ -1,0 +1,4 @@
+---
+dist: focal 
+arch: s390x # IBM Z 
+script: python ./bfs.py 
