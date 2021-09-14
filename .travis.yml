@@ -1,4 +1,4 @@
-dist: focal
+os: linux
 language: generic
 
 matrix:
@@ -6,7 +6,6 @@ matrix:
   include:
     - name: "Multi arch Python 3.7 on IBM Z by Montana Mendy running the breadth-first search"
       os: linux
-      dist: focal
       arch: s390x
       language: python
       python: 3.7
@@ -24,7 +23,6 @@ matrix:
 
     - name: "Multi arch Python 3.7 on IBM Z by Montana Mendy running the depth-first search"
       os: linux
-      dist: focal
       arch: s390x
       language: python
       python: 3.7
