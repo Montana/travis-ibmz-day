@@ -1,10 +1,8 @@
-# IBM Z Day 2021
+# IBM Z Day 2021: 
 
-Travis CI + IBM Z (IBM Z Day) Project.
+The purpose of this project is to show the ease of use and implementation of IBM Z into Travis CI projects, in order to do so, we will be doing the following:
 
-The purpose of this project is to show the ease of use and implementation of IBM Z into Travis CI projects.
-
-* Using s390x (Z) 
+* Using s390x (Z) in our Travis build 
 * Breadth-first search in Python I wrote 
 * Depth-first search in Python I wrote 
 * Show the simplicity of implementation on 1 side (the first `.travis.yml` file we will build) 
@@ -15,7 +13,9 @@ The purpose of this project is to show the ease of use and implementation of IBM
 * IBM Z build jobs are run in an LXD compliant Linux OS image, called `s390x` in the `.travis.yml` config file
 * IBM Z based Docker builds, assuming all dependencies and/or a CPU architecture compliant base Docker images are extremely feasible
 
-## Pushing with Quay:
+## Pushing with Quay (Container Registry): 
+
+In some cases, I prefer using Quay.io as my container registry instead of Dockerhub. One of the main reasons is the robot accounts that allow you to lock down automated access and audit each deployment.
 
 * https://github.com/Montana/travis-s390x-auto
 * https://quay.io/montana/montana-s390x
