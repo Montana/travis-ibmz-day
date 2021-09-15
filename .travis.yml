@@ -1,7 +1,6 @@
 ---
 dist: focal
 language: generic
-sudo: required
 
 services:
   - docker
@@ -42,7 +41,7 @@ matrix:
        env:
        - LIB_PATH="/usr/bin/shared/x86_64/v1"
        
-     - name: "IBM Z building a depth-first search by Montana Mendy on Python 3.5"
+     - name: "IBM Z transposing a matrix in single line in Python 3.5"
        os: linux
        dist: bionic
        arch: s390x
