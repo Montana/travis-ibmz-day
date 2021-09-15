@@ -1,7 +1,7 @@
 ![Montana Mendy](https://user-images.githubusercontent.com/20936398/133368041-b943db58-767b-44f2-a746-c91c335cc915.png)
 
 
-## IBM Z Day 2021: 
+## IBM Z Day 2021: Testing open source apps with Travis CI with Montana Mendy
 
 The purpose of this project is to show the ease of use and implementation of IBM Z into Travis CI projects, in order to do so, we will be doing the following:
 
@@ -20,7 +20,7 @@ The purpose of this project is to show the ease of use and implementation of IBM
 
 * IBM Z build jobs are run in an LXD compliant Linux OS image, called `s390x` in the `.travis.yml` config file
 * IBM Z based Docker builds, assuming all dependencies and/or a CPU architecture compliant base Docker images are extremely feasible
-* Using `arch: s390x` routes your build to IBM Z-based LXD containers. You can specify which version of Ubuntu using the `dist` key, or in my case just define `linux`.
+* Using `arch: s390x` routes your build to IBM Z-based LXD containers. You can specify which version of Ubuntu using the `dist` key, or in my case just define `linux`
 
 ## Pushing with Quay (Container Registry, the GitHub Repository must be left open):
 
