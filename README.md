@@ -1,14 +1,14 @@
 ![Montana Mendy](https://user-images.githubusercontent.com/20936398/133368041-b943db58-767b-44f2-a746-c91c335cc915.png)
 
 
-# IBM Z Day 2021: 
+## IBM Z Day 2021: 
 
 The purpose of this project is to show the ease of use and implementation of IBM Z into Travis CI projects, in order to do so, we will be doing the following:
 
 * Using s390x (Z) in our Travis build 
 * Utilize the breadth-first search in Python I wrote 
 * Utilize the depth-first search in Python I wrote 
-* Transpose a matrix in single line in Python with s390x (IBM Z)
+* Transpose a matrix in single line in Python with IBM Z 
 * Show the simplicity of implementation on 1 side (the first `.travis.yml` file we will build) 
 * Show the flexibility via running parallel builds of a BFS & DFS search - both using IBM Z (building the 2nd `.travis.yml`)
 * Use various Python versions (`3.5`, `3.7`, `3.9`)
