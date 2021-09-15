@@ -56,7 +56,7 @@ matrix:
       env:
         - LIB_PATH="/usr/bin/shared/x86_64/v3"
         
-     - name: "IBM Z running string slicing by Montana Mendy on Python 2.7"
+    - name: "IBM Z running string slicing by Montana Mendy on Python 2.7"
       os: linux
       dist: bionic
       arch: s390x
