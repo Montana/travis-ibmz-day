@@ -22,8 +22,9 @@ jobs:
        env:
        - LIB_PATH="/usr/bin/shared/x86_64/v1"
        
-       - name: "IBM Z building a depth-first search by Montana Mendy on Python 3.9"
+       - name: "IBM Z building a depth-first search made by Montana Mendy on Python 3.9"
        os: linux
+       dist: bionic
        arch: s390x
        language: python
        python: 3.9
