@@ -1,5 +1,5 @@
 ---
-dist: focal 
+os: linux
 language: python 
 arch: s390x # IBM Z 
 script: python ./bfs.py
