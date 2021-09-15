@@ -6,7 +6,7 @@
 The purpose of this project is to show the ease of use and implementation of IBM Z into Travis CI projects, in order to do so, we will be doing the following:
 
 * Using IBM Z in our Travis build 
-* Having an IBM Z build that has five jobs, running in parallel
+* Having an IBM Z build that has five jobs, running in parallel in Travis
 * Utilize the breadth-first search in Python I wrote 
 * Utilize the depth-first search in Python I wrote 
 * Transpose a matrix in single line in Python with IBM Z 
@@ -28,3 +28,7 @@ In some cases, I prefer using Quay.io as my container registry instead of Docker
 
 * https://github.com/Montana/travis-s390x-auto
 * https://quay.io/montana/montana-s390x
+
+## Author and Speaker at IBM Z Day 2021 - September 15th, 2021.
+
+Montana Mendy 
