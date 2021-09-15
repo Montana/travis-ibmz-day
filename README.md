@@ -14,7 +14,7 @@ The purpose of this project is to show the ease of use and implementation of IBM
 * Show the flexibility via running parallel builds of a BFS & DFS search - both using IBM Z (building the 2nd `.travis.yml`)
 * Show off string slicing and string rotation in Python using IBM Z and Travis
 * Counting uppercase, lowercase, special character and numeric values using `Regex`
-* Use various Python versions (`3.5`, `3.7`, `3.9`)
+* Use various Python versions (`2.7`, `3.5`, `3.7`, `3.9`)
 
 ## Things to Remember: 
 
