@@ -1,14 +1,18 @@
 ---
 dist: focal
 language: generic
+sudo: required
 
 services:
   - docker
 
-jobs:
+matrix:
+  fast_finish: true
   include:
-       - name: "IBM Z building a breadth-first search by Montana Mendy on Python 3.7"
+
+     - name: "IBM Z building a breadth-first search by Montana Mendy on Python 3.7"
        os: linux
+       dist: bionic
        arch: s390x
        language: python
        python: 3.7
@@ -19,22 +23,6 @@ jobs:
        install: skip
        before_script: skip
        script: python ./bfs.py
-       env:
-       - LIB_PATH="/usr/bin/shared/x86_64/v1"
-       
-       - name: "IBM Z building a depth-first search made by Montana Mendy on Python 3.9"
-       os: linux
-       dist: bionic
-       arch: s390x
-       language: python
-       python: 3.9
-       before_install:
-       - hostnamectl
-       - python --version
-       - docker --version
-       install: skip
-       before_script: skip
-       script: python ./dfs.py
        env:
        - LIB_PATH="/usr/bin/shared/x86_64/v1"
 
