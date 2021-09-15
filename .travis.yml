@@ -2,5 +2,4 @@
 os: linux
 language: python
 arch: s390x
-group: edge
 script: python ./bfs.py
