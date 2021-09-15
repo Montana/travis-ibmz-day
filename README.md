@@ -18,9 +18,9 @@ The purpose of this project is to show the ease of use and implementation of IBM
 * IBM Z based Docker builds, assuming all dependencies and/or a CPU architecture compliant base Docker images are extremely feasible
 * Using `arch: s390x` routes your build to IBM Z-based LXD containers. You can specify which version of Ubuntu using the `dist` key, or in my case juse define `linux`.
 
-## Pushing with Quay (Container Registry, repository must be left open):
+## Pushing with Quay (Container Registry, the GitHub Repository must be left open):
 
-In some cases, I prefer using Quay.io as my container registry instead of Dockerhub. One of the main reasons is the robot accounts that allow you to lock down automated access and audit each deployment.
+In some cases, I prefer using Quay.io as my container registry instead of Dockerhub. One of the main reasons is the robot accounts that allow you to lock down automated access and audit each deployment. Since Quay.io is meant for public access, this means the repo needs to be open for the build to complete and fethch the proper `env vars`.
 
 * https://github.com/Montana/travis-s390x-auto
 * https://quay.io/montana/montana-s390x
