@@ -1,4 +1,4 @@
-# For IBM Z Day, 2021 & Travis CI
+# For IBM Z Day 2021 & Travis CI
 
 N = 8
 rows = N
