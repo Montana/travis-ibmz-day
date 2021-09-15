@@ -72,12 +72,12 @@ matrix:
       env:
         - LIB_PATH="/usr/bin/shared/x86_64/v4"
         
-    - name: "IBM Z running upper case count via Regex by Montana Mendy on Python 3.4"
+    - name: "IBM Z running upper case count via Regex by Montana Mendy on Python 3.6"
       os: linux
       dist: bionic
       arch: s390x
       language: python
-      python: 3.3
+      python: 3.6
       before_install:
         - hostnamectl
         - python --version
