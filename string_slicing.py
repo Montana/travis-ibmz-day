@@ -1,8 +1,8 @@
-# For IBM Z Day 2021 & Travis CI by Montana Mendy
+    # For IBM Z Day 2021 & Travis CI by Montana Mendy
 
 def rotate(input,d): 
   
-    # Star slicing the string into two parts, these parts go left and right 
+    # Start slicing the string into two parts, these parts go left and right 
     
     Lfirst = input[0 : d] 
     Lsecond = input[d :] 
