@@ -11,6 +11,7 @@ The purpose of this project is to show the ease of use and implementation of IBM
 * Transpose a matrix in single line in Python with IBM Z 
 * Show the simplicity of implementation on 1 side (the first `.travis.yml` file we will build) 
 * Show the flexibility via running parallel builds of a BFS & DFS search - both using IBM Z (building the 2nd `.travis.yml`)
+* Show off string slicing and string rotation in Python using IBM Z and Travis
 * Use various Python versions (`3.5`, `3.7`, `3.9`)
 
 ## Things to Remember: 
