@@ -1,7 +1,7 @@
 ![Montana Mendy](https://user-images.githubusercontent.com/20936398/133368041-b943db58-767b-44f2-a746-c91c335cc915.png)
 
 
-## IBM Z Day 2021: Testing open source apps with Travis CI with keynote speaker and presenter Montana Mendy
+## IBM Z Day 2021: Testing open source apps with Travis CI with keynote speaker and presenter Montana Mendy:
 
 The purpose of this project is to show the ease of use and implementation of IBM Z into Travis CI projects, in order to do so, we will be doing the following:
 
@@ -29,7 +29,7 @@ In some cases, I prefer using Quay.io as my container registry instead of Docker
 * https://github.com/Montana/travis-s390x-auto
 * https://quay.io/montana/montana-s390x
 
-## Author and Speaker at IBM Z Day 2021 - September 15th, 2021.
+## Author and Speaker at IBM Z Day 2021 - September 15th, 2021:
 
 **Montana Mendy**<br>
 _Software Engineer at Travis CI_<br>
