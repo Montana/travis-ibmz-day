@@ -1,3 +1,5 @@
+# For IBM Z Day, 2021 & Travis CI
+
 N = 8
 rows = N
 cols = N
