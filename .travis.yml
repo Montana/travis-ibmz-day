@@ -25,7 +25,7 @@ matrix:
        env:
        - LIB_PATH="/usr/bin/shared/x86_64/v1"
 
-- name: "IBM Z running a depth-first search made by Montana Mendy"
+     - name: "IBM Z running a depth-first search made by Montana Mendy"
        os: linux
        dist: bionic
        arch: s390x
