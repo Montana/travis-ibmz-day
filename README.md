@@ -7,6 +7,7 @@ The purpose of this project is to show the ease of use and implementation of IBM
 * Depth-first search in Python I wrote 
 * Show the simplicity of implementation on 1 side (the first `.travis.yml` file we will build) 
 * Show the flexibility via running parallel builds of a BFS & DFS search - both using IBM Z (building the 2nd `.travis.yml`)
+* Use various Python versions (`3.7`, `3.9`)
 
 ## Things to Remember: 
 
