@@ -1,8 +1,6 @@
 ---
 dist: focal
 language: generic
-sudo: required
-arch: s390x
 
 services:
   - docker
@@ -20,7 +18,7 @@ jobs:
        - docker --version
        install: skip
        before_script: skip
-       script: skip
+       script: python ./bfs.py
        env:
        - LIB_PATH="/usr/bin/shared/x86_64/v1"
        
