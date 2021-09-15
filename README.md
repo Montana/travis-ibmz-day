@@ -8,6 +8,7 @@ The purpose of this project is to show the ease of use and implementation of IBM
 * Using s390x (Z) in our Travis build 
 * Utilize the breadth-first search in Python I wrote 
 * Utilize the depth-first search in Python I wrote 
+* Transpose a matrix in single line in Python with s390x (IBM Z)
 * Show the simplicity of implementation on 1 side (the first `.travis.yml` file we will build) 
 * Show the flexibility via running parallel builds of a BFS & DFS search - both using IBM Z (building the 2nd `.travis.yml`)
 * Use various Python versions (`3.7`, `3.9`)
