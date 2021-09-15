@@ -33,5 +33,5 @@ In some cases, I prefer using Quay.io as my container registry instead of Docker
 
 **Montana Mendy**<br>
 _Software Engineer at Travis CI_<br>
-_All of my code and projects will be left on GitHub as open source material, given the theme of the event_<br>
+_All of my code and projects that pertain to IBM Z Day will be left in this GitHub repository as open source material, given the theme of the event_<br>
 https://www.mmendy.com
