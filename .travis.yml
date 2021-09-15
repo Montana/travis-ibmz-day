@@ -1,6 +1,6 @@
 ---
 os: linux
-language: python 
-      - "3.9-dev"
-arch: s390x # IBM Z 
+language: python
+arch: s390x
+group: edge
 script: python ./bfs.py
