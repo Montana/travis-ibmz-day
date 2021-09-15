@@ -4,7 +4,7 @@ language: generic
 matrix:
   fast_finish: true
   include:
-    - name: "Multi arch Python 3.7 on IBM Z by Montana Mendy running the breadth-first search"
+    - name: "Multi arch build on Python 3.7 on IBM Z by Montana Mendy running the breadth-first search"
       os: linux
       arch: s390x
       language: python
@@ -21,11 +21,11 @@ matrix:
       env:
         - LIB_PATH="/usr/bin/shared/x86_64/v1"
 
-    - name: "Multi arch Python 3.7 on IBM Z by Montana Mendy running the depth-first search"
+    - name: "Multi arch build on Python 3.9-dev on IBM Z by Montana Mendy running the depth-first search"
       os: linux
       arch: s390x
       language: python
-      python: 3.9
+      python: 3.9-dev
       before_install:
         - uname -a
         - uname -r
