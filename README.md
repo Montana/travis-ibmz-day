@@ -3,7 +3,7 @@
 
 ## IBM Z Day 2021: Testing open source apps with Travis CI with keynote speaker and presenter Montana Mendy:
 
-The purpose of this project is to show the ease of use and implementation of IBM Z into Travis CI projects, in order to do so, we will be doing the following:
+The purpose of this keynote/presentation is to show the ease of use and flexibility of implementation when it comes to IBM Z projects that use Travis CI, in order to exhibit all these features, I've coded and put together some things that pertain perfectly to the concept at hand. We will be doing the following together today:
 
 * Using IBM Z in our Travis build 
 * Having an IBM Z build that has five jobs, running in parallel in Travis
@@ -14,7 +14,7 @@ The purpose of this project is to show the ease of use and implementation of IBM
 * Show the flexibility via running parallel builds of a BFS & DFS search - both using IBM Z (building the 2nd `.travis.yml`)
 * Show off string slicing and string rotation in Python using IBM Z and Travis
 * Counting uppercase, lowercase, special character and numeric values using `Regex`
-* Use various Python versions (`2.7`, `3.5`, `3.7`, `3.9`)
+* Use various Python versions (`2.7`, `3.5`, `3.6`, `3.7`, `3.9`)
 
 ## Things to Remember: 
 
