@@ -1,3 +1,5 @@
+# For IBM Z Day 2021 & Travis CI 
+
 BOARD_SIZE = 3
 
 goal_board = [1, 2, 3, 4, 5, 6, 7, 8, " "]
