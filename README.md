@@ -16,7 +16,7 @@ The purpose of this project is to show the ease of use and implementation of IBM
 
 * IBM Z build jobs are run in an LXD compliant Linux OS image, called `s390x` in the `.travis.yml` config file
 * IBM Z based Docker builds, assuming all dependencies and/or a CPU architecture compliant base Docker images are extremely feasible
-* Using `arch: s390x` routes your build to IBM Z-based LXD containers. You can specify which version of Ubuntu using the `dist` key, or in my case juse define `linux`.
+* Using `arch: s390x` routes your build to IBM Z-based LXD containers. You can specify which version of Ubuntu using the `dist` key, or in my case just define `linux`.
 
 ## Pushing with Quay (Container Registry, the GitHub Repository must be left open):
 
