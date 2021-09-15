@@ -1,5 +1,5 @@
 ---
 os: linux
-language: python 3.9-dev
+language: python - "3.9-dev"
 arch: s390x # IBM Z 
 script: python ./bfs.py
