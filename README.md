@@ -31,4 +31,6 @@ In some cases, I prefer using Quay.io as my container registry instead of Docker
 
 ## Author and Speaker at IBM Z Day 2021 - September 15th, 2021.
 
-Montana Mendy 
+**Montana Mendy**<br>
+_Software Engineer at Travis CI_<br>
+https://www.mmendy.com
