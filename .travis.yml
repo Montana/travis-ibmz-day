@@ -5,7 +5,7 @@ matrix:
   fast_finish: true
   include:
     - name: "Multi arch build on Python 3.7 on IBM Z by Montana Mendy running the breadth-first search"
-      os: linux
+      dist: bionic
       arch: s390x
       language: python
       python: 3.7
