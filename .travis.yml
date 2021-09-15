@@ -8,54 +8,53 @@ services:
 matrix:
   fast_finish: true
   include:
+    - name: "IBM Z building a breadth-first search by Montana Mendy on Python 3.7"
+      os: linux
+      dist: bionic
+      arch: s390x
+      language: python
+      python: 3.7
+      before_install:
+        - hostnamectl
+        - python --version
+        - docker --version
+      install: skip
+      before_script: skip
+      script: python ./bfs.py
+      env:
+        - LIB_PATH="/usr/bin/shared/x86_64/v1"
 
-     - name: "IBM Z building a breadth-first search by Montana Mendy on Python 3.7"
-       os: linux
-       dist: bionic
-       arch: s390x
-       language: python
-       python: 3.7
-       before_install:
-       - hostnamectl
-       - python --version
-       - docker --version
-       install: skip
-       before_script: skip
-       script: python ./bfs.py
-       env:
-       - LIB_PATH="/usr/bin/shared/x86_64/v1"
-       
-     - name: "IBM Z building a depth-first search by Montana Mendy on Python 3.9"
-       os: linux
-       dist: bionic
-       arch: s390x
-       language: python
-       python: 3.9
-       before_install:
-       - hostnamectl
-       - python --version
-       - docker --version
-       install: skip
-       before_script: skip
-       script: python ./dfs.py
-       env:
-       - LIB_PATH="/usr/bin/shared/x86_64/v1"
-       
-     - name: "IBM Z transposing a matrix in single line in Python 3.5"
-       os: linux
-       dist: bionic
-       arch: s390x
-       language: python
-       python: 3.5
-       before_install:
-       - hostnamectl
-       - python --version
-       - docker --version
-       install: skip
-       before_script: skip
-       script: python ./transpose.py
-       env:
-       - LIB_PATH="/usr/bin/shared/x86_64/v1"
+    - name: "IBM Z building a depth-first search by Montana Mendy on Python 3.9"
+      os: linux
+      dist: bionic
+      arch: s390x
+      language: python
+      python: 3.9
+      before_install:
+        - hostnamectl
+        - python --version
+        - docker --version
+      install: skip
+      before_script: skip
+      script: python ./dfs.py
+      env:
+        - LIB_PATH="/usr/bin/shared/x86_64/v2"
+
+    - name: "IBM Z transposing a matrix in single line in Python 3.5"
+      os: linux
+      dist: bionic
+      arch: s390x
+      language: python
+      python: 3.5
+      before_install:
+        - hostnamectl
+        - python --version
+        - docker --version
+      install: skip
+      before_script: skip
+      script: python ./transpose.py
+      env:
+        - LIB_PATH="/usr/bin/shared/x86_64/v3"
 
 before_install: skip
 install: skip
