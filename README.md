@@ -13,7 +13,7 @@ The purpose of this project is to show the ease of use and implementation of IBM
 * IBM Z build jobs are run in an LXD compliant Linux OS image, called `s390x` in the `.travis.yml` config file
 * IBM Z based Docker builds, assuming all dependencies and/or a CPU architecture compliant base Docker images are extremely feasible
 
-## Pushing with Quay (Container Registry): 
+## Pushing with Quay (Container Registry, repository must be left open):
 
 In some cases, I prefer using Quay.io as my container registry instead of Dockerhub. One of the main reasons is the robot accounts that allow you to lock down automated access and audit each deployment.
 
